@@ -1,12 +1,10 @@
-# Busbot
-
-Busbot is a project to store data about busses/trains.
+# DiscordJS V13 Template
 
 ## Installation
 
 ### 1. Clone repository
 ```dos
-git clone https://github.com/DanericNetwork/businfo.git
+git clone https://github.com/DanericNetwork/DiscordJS-Template.git
 ```
 ### 2. Setup config file
 Rename `config.example.json` to `config.json`  
