@@ -1,9 +1,11 @@
 const { Client, CommandInteraction } = require("discord.js");
 const { MessageEmbed } = require("discord.js");
+const { SlashCommandBuilder } = require("@discordjs/builders")
 
 module.exports = {
-    name: "ping",
-    description: "returns websocket ping",
+    ...new SlashCommandBuilder()
+        .setName("ping")
+        .setDescription("Pong!"),
     /**
      *
      * @param {Client} client
